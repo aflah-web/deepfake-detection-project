@@ -1,29 +1,65 @@
-Deepfake Detection Project
+Deepfake Detection Project using CNN
 
 📌 Overview
-This project detects whether an image/video is real or fake (deepfake) using deep learning.
+This project detects whether a given image is **Real or Fake (Deepfake)** using a Convolutional Neural Network (CNN) built with TensorFlow and Keras.
 
-🚀 Features
-- Deep learning based model
-- Image/video preprocessing
-- Prediction system for real vs fake detection
+---
+🚀 Objective
+To build a deep learning model that can classify images into:
+- Real
+- Fake
 
-🧠 Tech Stack
+---
+
+🛠 Tech Stack
 - Python
 - TensorFlow / Keras
 - OpenCV
+- NumPy
+- Matplotlib
 - Google Colab
 
-▶ How to Run
-1. Open the notebook in Google Colab
-2. Run all cells step by step
-3. Upload image/video when prompted
-4. Get prediction result
+---
 
-📂 Files
-- Deepfake notebook (.ipynb)
-- Model training code
-- Dataset handling
+📊 Dataset
+This project uses the **Kaggle Deepfake and Real Images dataset**.
+
+Dataset link:
+https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images
+
+---
+
+🧠 Model Architecture
+- Convolutional Neural Network (CNN)
+- Conv2D layers for feature extraction
+- MaxPooling layers for downsampling
+- Dense layers for classification
+
+---
+
+⚙️ How to Run
+1. Open the notebook in Google Colab
+2. Mount Google Drive (if required)
+3. Download dataset from Kaggle
+4. Run all cells
+5. Train the model
+6. Test predictions
+
+---
+
+📁 Project Structure
+- deepfake.ipynb → Main notebook
+- Dataset → Loaded via Kaggle/Drive
+
+---
+
+📈 Expected Output
+- Model predicts whether image is Real or Fake
+- Accuracy improves after training
+
+---
 
 👨‍💻 Author
 Muhammed Aflah A
+
+---
