@@ -26,4 +26,4 @@ This project detects whether an image/video is real or fake (deepfake) using dee
 - Dataset handling
 
 👨‍💻 Author
-Aflah-web
+Muhammed Aflah A
